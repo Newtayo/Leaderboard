@@ -12,7 +12,6 @@ body {
 
 .leaderboardcontainer {
   width: 70vw;
-  border: 2px solid red;
   margin-top: 5%;
   padding: 1%;
   display: flex;
