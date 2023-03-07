@@ -7,10 +7,27 @@
     <title><%=  htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-    <div>
-        <h3> Don't laugh at Me</h3>
-        <p>I am just testing webpack</p>
-        <img src="" id="Image"></img>
+    <div class="leaderboardcontainer">
+        <h1 class="Leaderheader"> Leaderboard</h1>
+        <div class="scorecontainer">
+        <section class="scoreboard"> 
+            <div class="scoreboardheader">
+                <h3 class="recent">Recent scores</h3>
+                <button type="submit" class="refesh" name="refesh">Refresh</button>
+            </div>
+            <div class="scorelist">
+            </div>
+        </section>
+        <section class="scoresheet">
+            <h2>Add your score</h2>
+            <form class="scoreinput">
+                <input type="text" class="namescore" placeholder="Your name"/>
+                <input type="text" class="score" placeholder="Your Score"/>
+                <input type="Submit" class="submit" value="Submit"/>
+            </form>
+
+        </section>
+    </div>
     </div>
 </body>
 </html>
