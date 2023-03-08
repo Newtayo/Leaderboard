@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.scoreboard {
+  margin-left: 5%;
+  width: 35vw;
+}
+
+.leaderboardcontainer {
+  width: 70vw;
+  margin-top: 5%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scorecontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.scoreinput {
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreboardheader {
+  display: flex;
+  width: 30vw;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.Leaderheader {
+  font-size: 4vw;
+}
+
+.recent {
+  font-size: 2vw;
+  margin: 0;
+  flex: 3;
+}
+
+.refesh {
+  height: 5vh;
+  box-shadow: 3px 3px 2px 1px;
+  width: 10vw;
+}
+
+.scorelist {
+  border: 2px solid black;
+  width: 30vw;
+  list-style: none;
+}
+
+.scolist {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 4vh;
+  padding: 0;
+}
+
+.namescore {
+  width: 100%;
+  margin-bottom: 4%;
+  border: 2px solid black;
+  padding: 0;
+  margin-left: 0;
+  height: 4vh;
+}
+
+.score {
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 0;
+  margin-left: 0;
+  height: 4vh;
+}
+
+.scoresheet {
+  width: 25vw;
+}
+
+.submit {
+  width: 30%;
+  align-self: flex-end;
+  box-shadow: 3px 3px 2px 1px;
+  height: 5vh;
+}
+
+.scorelist .scolist:nth-child(even) {
+  background-color: rgb(212, 212, 212);
+}
