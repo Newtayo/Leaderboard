@@ -73,6 +73,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ``git clone `https://github.com/Newtayo/Leaderboard`
+` Run npm run Build`
+`Run npm run dev`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
