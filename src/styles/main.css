@@ -3,6 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  background-color: aliceblue;
 }
 
 .scoreboard {
@@ -39,6 +40,7 @@ body {
 
 .Leaderheader {
   font-size: 4vw;
+  color: brown;
 }
 
 .recent {
@@ -98,4 +100,67 @@ body {
 
 .scorelist .scolist:nth-child(even) {
   background-color: rgb(212, 212, 212);
+}
+
+.refesh:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+@media only screen and (max-width: 768px) {
+  .Leaderheader {
+    font-size: 8vw;
+    color: brown;
+  }
+
+  .leaderboardcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scorecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .recent {
+    font-size: 5vw;
+    margin: 0;
+  }
+
+  .refesh {
+    height: 6vh;
+    box-shadow: 3px 3px 2px 1px;
+    width: 25%;
+  }
+
+  .scoreboardheader {
+    display: flex;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    align-items: center;
+    margin-bottom: 1%;
+  }
+
+  .scoreboard {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .scorelist {
+    border: 2px solid black;
+    width: 100%;
+    list-style: none;
+  }
+
+  .scoresheet {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .scoresheet > h2 {
+    font-size: 5vw;
+  }
 }
